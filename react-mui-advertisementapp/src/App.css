@@ -1,0 +1,49 @@
+.App {
+  background-color: #FAFAFA;
+  height: 100vh;
+  
+}
+
+@font-face {
+  font-family: 'Adobe Clean';
+  src: local('Adobe Clean'), local('AdobeClean'),
+       url('../fonts/AdobeClean-Regular.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Adobe Clean';
+  src: local('Adobe Clean Bold'), local('AdobeClean-Bold'),
+       url('../fonts/AdobeClean-Bold.otf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Adobe Clean', sans-serif;
+}
+
+.row {
+  display: flex; 
+}
+
+.table-container {
+  flex: 50%;
+  padding: 20px; /* Add padding for spacing */  
+}
+
+@media screen and (max-width: 600px) {
+  .table-container {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  /* Adjust styles for smaller screens */
+  body {
+    font-size: 14px; /* Adjust the font size or any other styles */
+  }
+}
+
+
